@@ -1422,14 +1422,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4335157639803988950, guid: 079d8e1325f92924690275cc28f21b1b, type: 3}
-      propertyPath: m_Mass
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4335157639803988951, guid: 079d8e1325f92924690275cc28f21b1b, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: d3a0d07470e624a44b249ceee81d6ed2, type: 2}
     - target: {fileID: 4335157639803988956, guid: 079d8e1325f92924690275cc28f21b1b, type: 3}
       propertyPath: m_Name
       value: 'Player '
@@ -1438,6 +1430,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4335157639803988956, guid: 079d8e1325f92924690275cc28f21b1b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 608972439}
     - targetCorrespondingSourceObject: {fileID: 4335157639803988956, guid: 079d8e1325f92924690275cc28f21b1b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 608972443}
@@ -1452,6 +1447,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4335157639803988956, guid: 079d8e1325f92924690275cc28f21b1b, type: 3}
   m_PrefabInstance: {fileID: 608972436}
   m_PrefabAsset: {fileID: 0}
+--- !u!75 &608972439
+ConstantForce:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608972438}
+  m_Enabled: 1
+  m_Force: {x: 0, y: 0, z: -10}
+  m_RelativeForce: {x: 0, y: 0, z: 0}
+  m_Torque: {x: 0, y: 0, z: 0}
+  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!114 &608972443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1464,8 +1471,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c9c7cee83edf14faf133e97799fd7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  rotSpeed: 45
-  speed: 50
+  rotSpeed: 30
+  speed: 20
 --- !u!1001 &633386270
 PrefabInstance:
   m_ObjectHideFlags: 0

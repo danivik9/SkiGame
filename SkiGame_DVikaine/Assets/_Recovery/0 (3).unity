@@ -1465,7 +1465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   rotSpeed: 45
-  speed: 50
+  speed: 10
 --- !u!1001 &633386270
 PrefabInstance:
   m_ObjectHideFlags: 0

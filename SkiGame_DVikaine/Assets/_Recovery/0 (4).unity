@@ -1424,7 +1424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4335157639803988950, guid: 079d8e1325f92924690275cc28f21b1b, type: 3}
       propertyPath: m_Mass
-      value: 0.1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4335157639803988951, guid: 079d8e1325f92924690275cc28f21b1b, type: 3}
       propertyPath: m_Material
@@ -1465,7 +1465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   rotSpeed: 45
-  speed: 50
+  speed: 20
 --- !u!1001 &633386270
 PrefabInstance:
   m_ObjectHideFlags: 0
