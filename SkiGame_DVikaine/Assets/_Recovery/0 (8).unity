@@ -1464,7 +1464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c9c7cee83edf14faf133e97799fd7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  rotSpeed: 60
+  rotSpeed: 45
   speed: 50
   grounded: 1
   groundMask:
@@ -2093,23 +2093,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8242352606207667663, guid: def1b5a67cc195940922b5f6a9a5c9cf, type: 3}
   m_PrefabInstance: {fileID: 1130958100}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1178572375 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8485532309953187564, guid: 3d3a741bcdb7b8c4a84f8beb3ae4d7e9, type: 3}
-  m_PrefabInstance: {fileID: 1372540147}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1178572376
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1178572375}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5697c0394a3b48b489a2aa3ef064de6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstacleDestroy
 --- !u!1001 &1202275226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2585,10 +2568,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8485532309953187564, guid: 3d3a741bcdb7b8c4a84f8beb3ae4d7e9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1178572376}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d3a741bcdb7b8c4a84f8beb3ae4d7e9, type: 3}
 --- !u!1 &1440651719
 GameObject:
@@ -3046,6 +3026,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1705027368}
     - target: {fileID: 2693573932408249067, guid: 11ad6071766f6d5428a83259fef12ec1, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2693573932408249067, guid: 11ad6071766f6d5428a83259fef12ec1, type: 3}
       propertyPath: m_MeshFormatVersion
       value: 2
       objectReference: {fileID: 0}
@@ -3468,15 +3452,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2361771304799954174, guid: a5cd22a56e393fe49a1e3e0abac5b42d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 92.76
+      value: 104.6
       objectReference: {fileID: 0}
     - target: {fileID: 2361771304799954174, guid: a5cd22a56e393fe49a1e3e0abac5b42d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.77
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 2361771304799954174, guid: a5cd22a56e393fe49a1e3e0abac5b42d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -92.55
+      value: -59.02
       objectReference: {fileID: 0}
     - target: {fileID: 2361771304799954174, guid: a5cd22a56e393fe49a1e3e0abac5b42d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3529,11 +3513,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 609784112183092115, guid: b1ac3c5a77c2a024eb239b797f42b96a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.83
+      value: 1.57842
       objectReference: {fileID: 0}
     - target: {fileID: 609784112183092115, guid: b1ac3c5a77c2a024eb239b797f42b96a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -59.89
+      value: -49.77
       objectReference: {fileID: 0}
     - target: {fileID: 609784112183092115, guid: b1ac3c5a77c2a024eb239b797f42b96a, type: 3}
       propertyPath: m_LocalRotation.w
