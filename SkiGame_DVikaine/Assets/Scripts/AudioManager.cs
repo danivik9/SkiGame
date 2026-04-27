@@ -3,12 +3,15 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     public AudioSource audioSource;
-    public AudioClip collisionSound;
+    [SerializeField] private AudioClip collisionSound;
     void Awake()
     {
         audioSource = GetComponent<AudioSource>();
     }
-
+    private void OnEnable()
+    {
+        Obstacle.OnPlayerHit += PlayerCollisionSound;
+    }
     private void PlayerCollisionSound()
     {
         audioSource.PlayOneShot(collisionSound);
